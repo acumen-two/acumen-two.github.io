@@ -1,0 +1,101 @@
+// Core variables and mixins
+@import "variables.scss";
+@import "mixins.scss";
+// Global CSS
+@import "global.scss";
+// Components
+@import "navbar.scss";
+@import "masthead.scss";
+@import "services.scss";
+@import "portfolio.scss";
+@import "timeline.scss";
+@import "team.scss";
+@import "contact.scss";
+@import "footer.scss";
+@import "home.scss";
+
+.diagram {
+    width: 100%;
+    max-width: 330px;
+    text-align: center;
+}
+
+ul,ol {
+    text-align: left;
+    &.list-inline {
+        text-align: center;
+    }
+}
+
+#steve1 {
+    max-width: 200px;
+    @media(min-width:768px) {
+        max-width: 300px;
+    }
+}
+
+#family-img {
+    width: 100%;
+    max-width: 400px;
+    @media(min-width:768px) {
+        width: 100%;
+    }
+}
+
+i {
+    color: $primary;
+    font-weight: 700;
+    &.black {
+        color: $black;
+    }
+    &.white {
+        color: $white;
+    }
+}
+
+u {
+    color: $primary;
+    &.black {
+        color: $black;
+    }
+}
+
+#home {
+    .logo-image {
+        width: 50%;
+        min-width: 300px;
+    }
+}
+
+#contact {
+    #logo-image {
+        width: 175px;
+        border: white 5px solid;
+        border-radius: 5px;
+    }
+
+    a {
+        color: $white;
+    }
+}
+
+.def {
+    width: 100%;
+    max-width: 500px;
+}
+
+section:nth-child(odd) {
+    background-color: lighten($black, 94);
+}
+
+section#case-studies {
+    h2, h5 {
+        color: $primary;
+    }
+}
+
+section#family {
+    h2, h5 {
+        color: $primary;
+    }
+}
