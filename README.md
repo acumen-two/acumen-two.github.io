@@ -1,4 +1,4 @@
-# [Acumen Two](https://singerbj.github.io/acumen-two/)
+# [Acumen Two](acumen-two.github.io)
 
 ## Download and Installation
 
